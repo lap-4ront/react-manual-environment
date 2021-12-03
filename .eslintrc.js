@@ -8,7 +8,7 @@ module.exports = {
     jest: true
   },
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
     ecmaFeatures: {
       impliedStrict: true,
       jsx: true
@@ -19,7 +19,8 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "prettier"
   ],
   settings: {
     react: {
