@@ -5,7 +5,9 @@ export default function App() {
 
   return (
     <div>
-      <button onClick={() => setCounter((prev) => prev + 1)}>{counter}</button>
+      <div>{counter}</div>
+      <button onClick={() => setCounter((prev) => prev + 1)}>Increment</button>
+      <button onClick={() => setCounter((prev) => prev - 1)}>Decrement</button>
     </div>
   );
 }
