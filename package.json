@@ -1,0 +1,27 @@
+{
+  "name": "react-manual-environment",
+  "version": "1.0.0",
+  "description": "Manual minimal environment of react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lap-4ront/react-manual-environment.git"
+  },
+  "keywords": [
+    "react",
+    "development",
+    "manual",
+    "environment",
+    "minimal",
+    "javascript"
+  ],
+  "author": "Rinat Valiullov <4rontender@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lap-4ront/react-manual-environment/issues"
+  },
+  "homepage": "https://github.com/lap-4ront/react-manual-environment#readme"
+}
