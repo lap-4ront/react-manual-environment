@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
-    "dev:bundle": "webpack -w --mode=development"
+    "babel-node": "babel-node",
+    "dev-server": "nodemon --exec npm run babel-node -- src/server/server.js --ignore dist/",
+    "dev-bundle": "webpack -w --mode=development"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/lap-4ront/react-manual-environment#readme",
   "dependencies": {
+    "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/node": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
