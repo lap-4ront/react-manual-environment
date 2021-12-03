@@ -4,7 +4,9 @@
   "description": "Manual minimal environment of react project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev:bundle": "webpack -w --mode=development"
   },
   "repository": {
     "type": "git",
